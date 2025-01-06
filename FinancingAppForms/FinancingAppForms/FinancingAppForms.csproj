@@ -52,10 +52,46 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="formDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formDashboard.Designer.cs">
+      <DependentUpon>formDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formSettings.Designer.cs">
+      <DependentUpon>formSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formSpending.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formSpending.Designer.cs">
+      <DependentUpon>formSpending.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formStatistics.Designer.cs">
+      <DependentUpon>formStatistics.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formDashboard.resx">
+      <DependentUpon>formDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formSettings.resx">
+      <DependentUpon>formSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formSpending.resx">
+      <DependentUpon>formSpending.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formStatistics.resx">
+      <DependentUpon>formStatistics.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -84,8 +120,11 @@
   <ItemGroup>
     <Content Include="Resources\Close Button.png" />
     <Content Include="Resources\Dashboard.png" />
+    <Content Include="Resources\Dollarsign.png" />
     <Content Include="Resources\FBLA Finance Logo White.png" />
     <Content Include="Resources\FBLA Finance Logo.png" />
+    <Content Include="Resources\Fire.png" />
+    <Content Include="Resources\Save.png" />
     <Content Include="Resources\Statistics.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -8,3 +8,17 @@ C:\Users\Jacob\source\repos\FinancingAppForms\FinancingAppForms\obj\Debug\Financ
 C:\Users\Jacob\source\repos\FinancingAppForms\FinancingAppForms\obj\Debug\FinancingAppForms.csproj.CoreCompileInputs.cache
 C:\Users\Jacob\source\repos\FinancingAppForms\FinancingAppForms\obj\Debug\FinancingAppForms.exe
 C:\Users\Jacob\source\repos\FinancingAppForms\FinancingAppForms\obj\Debug\FinancingAppForms.pdb
+C:\Users\Jacob\Source\Repos\fbla25codingdev\FinancingAppForms\FinancingAppForms\bin\Debug\FinancingAppForms.exe.config
+C:\Users\Jacob\Source\Repos\fbla25codingdev\FinancingAppForms\FinancingAppForms\bin\Debug\FinancingAppForms.exe
+C:\Users\Jacob\Source\Repos\fbla25codingdev\FinancingAppForms\FinancingAppForms\bin\Debug\FinancingAppForms.pdb
+C:\Users\Jacob\Source\Repos\fbla25codingdev\FinancingAppForms\FinancingAppForms\obj\Debug\FinancingAppForms.csproj.AssemblyReference.cache
+C:\Users\Jacob\Source\Repos\fbla25codingdev\FinancingAppForms\FinancingAppForms\obj\Debug\FinancingAppForms.Form1.resources
+C:\Users\Jacob\Source\Repos\fbla25codingdev\FinancingAppForms\FinancingAppForms\obj\Debug\FinancingAppForms.Properties.Resources.resources
+C:\Users\Jacob\Source\Repos\fbla25codingdev\FinancingAppForms\FinancingAppForms\obj\Debug\FinancingAppForms.csproj.GenerateResource.cache
+C:\Users\Jacob\Source\Repos\fbla25codingdev\FinancingAppForms\FinancingAppForms\obj\Debug\FinancingAppForms.csproj.CoreCompileInputs.cache
+C:\Users\Jacob\Source\Repos\fbla25codingdev\FinancingAppForms\FinancingAppForms\obj\Debug\FinancingAppForms.exe
+C:\Users\Jacob\Source\Repos\fbla25codingdev\FinancingAppForms\FinancingAppForms\obj\Debug\FinancingAppForms.pdb
+C:\Users\Jacob\Source\Repos\fbla25codingdev\FinancingAppForms\FinancingAppForms\obj\Debug\FinancingAppForms.formDashboard.resources
+C:\Users\Jacob\Source\Repos\fbla25codingdev\FinancingAppForms\FinancingAppForms\obj\Debug\FinancingAppForms.formSettings.resources
+C:\Users\Jacob\Source\Repos\fbla25codingdev\FinancingAppForms\FinancingAppForms\obj\Debug\FinancingAppForms.formSpending.resources
+C:\Users\Jacob\Source\Repos\fbla25codingdev\FinancingAppForms\FinancingAppForms\obj\Debug\FinancingAppForms.formStatistics.resources

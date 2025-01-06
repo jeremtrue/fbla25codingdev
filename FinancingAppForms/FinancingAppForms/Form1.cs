@@ -26,6 +26,8 @@ namespace FinancingAppForms
 
         );
 
+        private Form activeForm = null;
+
         public Form1()
         {
             InitializeComponent();
@@ -34,68 +36,100 @@ namespace FinancingAppForms
             panelNav.Top = btnDashboard.Top;
             panelNav.Left = btnDashboard.Left;
             btnDashboard.BackColor = Color.FromArgb(46, 51, 73);
-        }
 
-        private void btnSettings_Click(object sender, EventArgs e)
-        {
-
+            lblTitle.Text = "Dashboard";
+            this.panelFormLoader.Controls.Clear();
+            formDashboard formDashboard_Vrb = new formDashboard() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            formDashboard_Vrb.FormBorderStyle = FormBorderStyle.None;
+            this.panelFormLoader.Controls.Add(formDashboard_Vrb);
+            formDashboard_Vrb.Show();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
+
+        }
+
+        private void ActivateButton(Button activeButton)
+        {
+            // reset all button colors before setting the active one
+            btnDashboard.BackColor = Color.FromArgb(24, 30, 54);
+            btnSpending.BackColor = Color.FromArgb(24, 30, 54);
+            btnStatistics.BackColor = Color.FromArgb(24, 30, 54);
+            btnSettings.BackColor = Color.FromArgb(24, 30, 54);
+
+            // set the selected button color
+            activeButton.BackColor = Color.FromArgb(46, 51, 73);
+
+            // adjust navigation panel
+            panelNav.Height = activeButton.Height;
+            panelNav.Top = activeButton.Top;
+            panelNav.Left = activeButton.Left;
+        }
+
+        private void OpenForm(Form newForm)
+        {
+            // dispose of the previous form if it exists
+            if (activeForm != null)
+            {
+                activeForm.Close();
+                activeForm.Dispose();
+            }
+
+            // set the new active form
+            activeForm = newForm;
+            activeForm.TopLevel = false;
+            activeForm.Dock = DockStyle.Fill;
+            activeForm.FormBorderStyle = FormBorderStyle.None;
+
+            // load the new form
+            panelFormLoader.Controls.Clear();
+            panelFormLoader.Controls.Add(activeForm);
+            activeForm.Show();
         }
 
         private void btnDashboard_Click(object sender, EventArgs e)
         {
-            panelNav.Height = btnDashboard.Height;
-            panelNav.Top = btnDashboard.Top;
-            panelNav.Left = btnDashboard.Left;
-            btnDashboard.BackColor = Color.FromArgb(46, 51, 73);
+            lblTitle.Text = "Dashboard";
+
+            ActivateButton(btnDashboard);
+
+            OpenForm(new formDashboard());
         }
 
         private void btnSpending_Click(object sender, EventArgs e)
         {
-            panelNav.Height = btnSpending.Height;
-            panelNav.Top = btnSpending.Top;
-            panelNav.Left = btnSpending.Left;
-            btnSpending.BackColor = Color.FromArgb(46, 51, 73);
+            lblTitle.Text = "Spending";
+
+            ActivateButton(btnSpending);
+
+            OpenForm(new formSpending());
         }
 
         private void btnStatistics_Click(object sender, EventArgs e)
         {
-            panelNav.Height = btnStatistics.Height;
-            panelNav.Top = btnStatistics.Top;
-            panelNav.Left = btnStatistics.Left;
-            btnStatistics.BackColor = Color.FromArgb(46, 51, 73);
+            lblTitle.Text = "Statistics";
+
+            ActivateButton(btnStatistics);
+
+            OpenForm(new formStatistics());
         }
 
         private void btnSettings_Click_1(object sender, EventArgs e)
         {
-            panelNav.Height = btnSettings.Height;
-            panelNav.Top = btnSettings.Top;
-            panelNav.Left = btnSettings.Left;
-            btnSettings.BackColor = Color.FromArgb(46, 51, 73);
+            lblTitle.Text = "Settings";
+
+            ActivateButton(btnSettings);
+
+            OpenForm(new formSettings());
         }
 
-        private void btnDashboard_Leave(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
-            btnDashboard.BackColor = Color.FromArgb(24, 30, 54);
+            Application.Exit();
         }
 
-        private void btnSpending_Leave(object sender, EventArgs e)
-        {
-            btnSpending.BackColor = Color.FromArgb(24, 30, 54);
-        }
 
-        private void btnSettings_Leave(object sender, EventArgs e)
-        {
-            btnSettings.BackColor = Color.FromArgb(24, 30, 54);
-        }
-
-        private void btnStatistics_Leave(object sender, EventArgs e)
-        {
-            btnStatistics.BackColor = Color.FromArgb(24, 30, 54);
-        }
     }
 }

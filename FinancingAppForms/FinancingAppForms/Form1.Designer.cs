@@ -32,8 +32,12 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panelNav = new System.Windows.Forms.Panel();
-            this.btnSettings = new System.Windows.Forms.Button();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.lblTitle = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panelFormLoader = new System.Windows.Forms.Panel();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.btnSettings = new System.Windows.Forms.Button();
             this.btnStatistics = new System.Windows.Forms.Button();
             this.btnSpending = new System.Windows.Forms.Button();
             this.btnDashboard = new System.Windows.Forms.Button();
@@ -45,6 +49,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.panelNav);
             this.panel1.Controls.Add(this.btnSettings);
             this.panel1.Controls.Add(this.btnStatistics);
@@ -65,6 +70,60 @@
             this.panelNav.Size = new System.Drawing.Size(3, 100);
             this.panelNav.TabIndex = 5;
             // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "Dashboard.png");
+            this.imageList1.Images.SetKeyName(1, "Spending.png");
+            this.imageList1.Images.SetKeyName(2, "Statistics.png");
+            this.imageList1.Images.SetKeyName(3, "Settings.png");
+            this.imageList1.Images.SetKeyName(4, "Close Button.png");
+            this.imageList1.Images.SetKeyName(5, "Dollarsign.png");
+            // 
+            // lblTitle
+            // 
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.Font = new System.Drawing.Font("Apercu Pro", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.ForeColor = System.Drawing.Color.White;
+            this.lblTitle.Location = new System.Drawing.Point(175, 24);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(201, 44);
+            this.lblTitle.TabIndex = 2;
+            this.lblTitle.Text = "Dashboard";
+            // 
+            // panel5
+            // 
+            this.panel5.Location = new System.Drawing.Point(152, 75);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(733, 477);
+            this.panel5.TabIndex = 6;
+            // 
+            // panelFormLoader
+            // 
+            this.panelFormLoader.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelFormLoader.Location = new System.Drawing.Point(146, 75);
+            this.panelFormLoader.Name = "panelFormLoader";
+            this.panelFormLoader.Size = new System.Drawing.Size(805, 502);
+            this.panelFormLoader.TabIndex = 3;
+            // 
+            // btnExit
+            // 
+            this.btnExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.btnExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnExit.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnExit.FlatAppearance.BorderSize = 0;
+            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExit.ForeColor = System.Drawing.Color.Transparent;
+            this.btnExit.ImageIndex = 4;
+            this.btnExit.ImageList = this.imageList1;
+            this.btnExit.Location = new System.Drawing.Point(899, 12);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(40, 40);
+            this.btnExit.TabIndex = 1;
+            this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
             // btnSettings
             // 
             this.btnSettings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -84,17 +143,6 @@
             this.btnSettings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSettings.UseVisualStyleBackColor = true;
             this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click_1);
-            this.btnSettings.Leave += new System.EventHandler(this.btnSettings_Leave);
-            // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "Dashboard.png");
-            this.imageList1.Images.SetKeyName(1, "Spending.png");
-            this.imageList1.Images.SetKeyName(2, "Statistics.png");
-            this.imageList1.Images.SetKeyName(3, "Settings.png");
-            this.imageList1.Images.SetKeyName(4, "Close Button.png");
             // 
             // btnStatistics
             // 
@@ -115,7 +163,6 @@
             this.btnStatistics.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnStatistics.UseVisualStyleBackColor = true;
             this.btnStatistics.Click += new System.EventHandler(this.btnStatistics_Click);
-            this.btnStatistics.Leave += new System.EventHandler(this.btnStatistics_Leave);
             // 
             // btnSpending
             // 
@@ -136,7 +183,6 @@
             this.btnSpending.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSpending.UseVisualStyleBackColor = true;
             this.btnSpending.Click += new System.EventHandler(this.btnSpending_Click);
-            this.btnSpending.Leave += new System.EventHandler(this.btnSpending_Leave);
             // 
             // btnDashboard
             // 
@@ -158,7 +204,6 @@
             this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDashboard.UseVisualStyleBackColor = false;
             this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
-            this.btnDashboard.Leave += new System.EventHandler(this.btnDashboard_Leave);
             // 
             // pictureBoxLogo
             // 
@@ -177,6 +222,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.ClientSize = new System.Drawing.Size(951, 577);
+            this.Controls.Add(this.panelFormLoader);
+            this.Controls.Add(this.lblTitle);
+            this.Controls.Add(this.btnExit);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
@@ -186,6 +234,7 @@
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -199,6 +248,10 @@
         private System.Windows.Forms.Button btnSettings;
         private System.Windows.Forms.Button btnStatistics;
         private System.Windows.Forms.Panel panelNav;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Label lblTitle;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panelFormLoader;
     }
 }
 
