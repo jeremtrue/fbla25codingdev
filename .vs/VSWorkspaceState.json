@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\FinancingAppForms",
+    "\\FinancingAppForms\\FinancingAppForms"
   ],
-  "SelectedNode": "\\FinancingAppForms.sln",
+  "SelectedNode": "\\FinancingAppForms\\FinancingAppForms\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }

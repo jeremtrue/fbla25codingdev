@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MongoDB.Driver;
+using MongoDB.Bson;
 
 namespace FinancingAppForms
 {
@@ -15,6 +17,11 @@ namespace FinancingAppForms
         public formDashboard()
         {
             InitializeComponent();
+        }
+
+        private void formDashboard_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

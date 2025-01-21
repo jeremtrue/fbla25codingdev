@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MongoDB.Bson;
+using MongoDB.Driver;
 
 namespace FinancingAppForms
 {
@@ -107,5 +109,17 @@ namespace FinancingAppForms
             dataGridView.Rows.Add(50.75, "Transportation", true, DateTime.Now.AddDays(-3));
             dataGridView.Rows.Add(300.00, "Freelance", false, DateTime.Now.AddDays(-7));
         }
+
+        private void panelDataGridView_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+        private void addbutt_Click(object sender, EventArgs e)
+        {
+            // Open the FormAddEntry as a dialog
+            FormAddEntry addEntryForm = new FormAddEntry();
+            addEntryForm.ShowDialog();
+        }
+
     }
 }
