@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|c:\\users\\jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\financingappforms\\financingappforms\\formaddentry.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|solutionrelative:financingappforms\\formaddentry.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|c:\\users\\jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\financingappforms\\financingappforms\\formsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|solutionrelative:financingappforms\\formsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|c:\\users\\jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\financingappforms\\financingappforms\\formaddentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|solutionrelative:financingappforms\\formaddentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|c:\\users\\jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\financingappforms\\financingappforms\\formspending.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|solutionrelative:financingappforms\\formspending.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\financingappforms\\formspending.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|solutionrelative:financingappforms\\formspending.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|c:\\users\\jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\financingappforms\\financingappforms\\formsettings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|solutionrelative:financingappforms\\formsettings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\financingappforms\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,12 +23,32 @@
       "RelativeMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|solutionrelative:financingappforms\\formsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\financingappforms\\formstatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|solutionrelative:financingappforms\\formstatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\financingappforms\\formaddentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|solutionrelative:financingappforms\\formaddentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|c:\\users\\jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\financingappforms\\financingappforms\\formaddentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|c:\\users\\jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\financingappforms\\financingappforms\\formspending.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|solutionrelative:financingappforms\\formspending.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\financingappforms\\formspending.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|solutionrelative:financingappforms\\formspending.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\financingappforms\\formaddentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|solutionrelative:financingappforms\\formaddentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|c:\\users\\jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\financingappforms\\financingappforms\\formspending.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|solutionrelative:financingappforms\\formspending.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|c:\\users\\jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\financingappforms\\financingappforms\\formaddentry.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|solutionrelative:financingappforms\\formaddentry.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\financingappforms\\formstatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|solutionrelative:financingappforms\\formstatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B746E67C-6C92-46C4-9CFF-EA38FFA59374}|FinancingAppForms\\FinancingAppForms.csproj|C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\financingappforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -58,27 +70,39 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "formSpending.cs",
+              "DocumentMoniker": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\formSpending.cs",
+              "RelativeDocumentMoniker": "FinancingAppForms\\formSpending.cs",
+              "ToolTip": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\formSpending.cs",
+              "RelativeToolTip": "FinancingAppForms\\formSpending.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAywCsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T06:24:10.965Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormAddEntry.cs",
+              "DocumentMoniker": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\FormAddEntry.cs",
+              "RelativeDocumentMoniker": "FinancingAppForms\\FormAddEntry.cs",
+              "ToolTip": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\FormAddEntry.cs",
+              "RelativeToolTip": "FinancingAppForms\\FormAddEntry.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAYwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T04:19:49.563Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "formSpending.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\formSpending.cs",
-              "RelativeDocumentMoniker": "FinancingAppForms\\formSpending.cs",
-              "ToolTip": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\formSpending.cs [Design]",
-              "RelativeToolTip": "FinancingAppForms\\formSpending.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T05:07:25.088Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "formDashboard.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\formDashboard.cs",
               "RelativeDocumentMoniker": "FinancingAppForms\\formDashboard.cs",
@@ -86,62 +110,56 @@
               "RelativeToolTip": "FinancingAppForms\\formDashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T06:45:59.735Z",
+              "IsPinned": true,
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "formSpending.cs",
-              "DocumentMoniker": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\formSpending.cs",
-              "RelativeDocumentMoniker": "FinancingAppForms\\formSpending.cs",
-              "ToolTip": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\formSpending.cs",
-              "RelativeToolTip": "FinancingAppForms\\formSpending.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAYwH0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T06:24:10.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormAddEntry.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\FormAddEntry.Designer.cs",
-              "RelativeDocumentMoniker": "FinancingAppForms\\FormAddEntry.Designer.cs",
-              "ToolTip": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\FormAddEntry.Designer.cs",
-              "RelativeToolTip": "FinancingAppForms\\FormAddEntry.Designer.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T04:21:59.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormAddEntry.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\FormAddEntry.cs",
-              "RelativeDocumentMoniker": "FinancingAppForms\\FormAddEntry.cs",
-              "ToolTip": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\FormAddEntry.cs [Design]",
-              "RelativeToolTip": "FinancingAppForms\\FormAddEntry.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T04:16:44.616Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "formDashboard.cs",
               "DocumentMoniker": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\formDashboard.cs",
               "RelativeDocumentMoniker": "FinancingAppForms\\formDashboard.cs",
               "ToolTip": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\formDashboard.cs",
               "RelativeToolTip": "FinancingAppForms\\formDashboard.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwFkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T23:14:46.632Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "formSettings.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\formSettings.Designer.cs",
+              "RelativeDocumentMoniker": "FinancingAppForms\\formSettings.Designer.cs",
+              "ToolTip": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\formSettings.Designer.cs",
+              "RelativeToolTip": "FinancingAppForms\\formSettings.Designer.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAowDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T00:14:50.588Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "formSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\formSettings.cs",
+              "RelativeDocumentMoniker": "FinancingAppForms\\formSettings.cs",
+              "ToolTip": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\formSettings.cs",
+              "RelativeToolTip": "FinancingAppForms\\formSettings.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA8wBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T00:10:21.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "formSettings.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\formSettings.cs",
               "RelativeDocumentMoniker": "FinancingAppForms\\formSettings.cs",
@@ -153,32 +171,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
+              "Title": "FormAddEntry.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\FormAddEntry.cs",
+              "RelativeDocumentMoniker": "FinancingAppForms\\FormAddEntry.cs",
+              "ToolTip": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\FormAddEntry.cs [Design]",
+              "RelativeToolTip": "FinancingAppForms\\FormAddEntry.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T04:16:44.616Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "formSpending.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\formSpending.cs",
+              "RelativeDocumentMoniker": "FinancingAppForms\\formSpending.cs",
+              "ToolTip": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\formSpending.cs [Design]",
+              "RelativeToolTip": "FinancingAppForms\\formSpending.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T05:07:25.088Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormAddEntry.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\FormAddEntry.Designer.cs",
+              "RelativeDocumentMoniker": "FinancingAppForms\\FormAddEntry.Designer.cs",
+              "ToolTip": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\FormAddEntry.Designer.cs",
+              "RelativeToolTip": "FinancingAppForms\\FormAddEntry.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T23:07:44.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "formSpending.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\formSpending.Designer.cs",
+              "RelativeDocumentMoniker": "FinancingAppForms\\formSpending.Designer.cs",
+              "ToolTip": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\formSpending.Designer.cs",
+              "RelativeToolTip": "FinancingAppForms\\formSpending.Designer.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCoAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T23:30:40.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "formStatistics.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\formStatistics.cs",
               "RelativeDocumentMoniker": "FinancingAppForms\\formStatistics.cs",
               "ToolTip": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\formStatistics.cs [Design]",
               "RelativeToolTip": "FinancingAppForms\\formStatistics.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T05:09:38.362Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-01-06T05:09:38.362Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FormAddEntry.cs",
-              "DocumentMoniker": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\FormAddEntry.cs",
-              "RelativeDocumentMoniker": "FinancingAppForms\\FormAddEntry.cs",
-              "ToolTip": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\FormAddEntry.cs",
-              "RelativeToolTip": "FinancingAppForms\\FormAddEntry.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAgwJoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T04:19:49.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\Form1.cs",
               "RelativeDocumentMoniker": "FinancingAppForms\\Form1.cs",
@@ -189,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\Program.cs",
               "RelativeDocumentMoniker": "FinancingAppForms\\Program.cs",
@@ -201,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Jeremy\\source\\repos\\jeremtrue\\fbla25codingdev\\FinancingAppForms\\FinancingAppForms\\Form1.cs",
               "RelativeDocumentMoniker": "FinancingAppForms\\Form1.cs",

@@ -30,15 +30,15 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formDashboard));
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
+            this.labelAccountBalance = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.labelEarnedThisMonth = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.lblMonthlyExpenses = new System.Windows.Forms.Label();
+            this.labelMonthlyExpenses = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -50,25 +50,25 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(44)))), ((int)(((byte)(70)))));
-            this.panel4.Controls.Add(this.label4);
+            this.panel4.Controls.Add(this.labelAccountBalance);
             this.panel4.Controls.Add(this.label5);
             this.panel4.Location = new System.Drawing.Point(24, 23);
-            this.panel4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.panel4.Margin = new System.Windows.Forms.Padding(6);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(522, 310);
             this.panel4.TabIndex = 8;
             // 
-            // label4
+            // labelAccountBalance
             // 
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(0, 65);
-            this.label4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(522, 208);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "$700";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelAccountBalance.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelAccountBalance.ForeColor = System.Drawing.Color.White;
+            this.labelAccountBalance.Location = new System.Drawing.Point(0, 65);
+            this.labelAccountBalance.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.labelAccountBalance.Name = "labelAccountBalance";
+            this.labelAccountBalance.Size = new System.Drawing.Size(522, 208);
+            this.labelAccountBalance.TabIndex = 1;
+            this.labelAccountBalance.Text = "$700";
+            this.labelAccountBalance.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label5
             // 
@@ -86,10 +86,10 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(44)))), ((int)(((byte)(70)))));
             this.panel3.Controls.Add(this.pictureBox2);
-            this.panel3.Controls.Add(this.label2);
+            this.panel3.Controls.Add(this.labelEarnedThisMonth);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Location = new System.Drawing.Point(634, 369);
-            this.panel3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.panel3.Margin = new System.Windows.Forms.Padding(6);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(522, 310);
             this.panel3.TabIndex = 7;
@@ -98,24 +98,24 @@
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(6);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(78, 71);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
             // 
-            // label2
+            // labelEarnedThisMonth
             // 
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(0, 65);
-            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(522, 208);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "$1204";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelEarnedThisMonth.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelEarnedThisMonth.ForeColor = System.Drawing.Color.White;
+            this.labelEarnedThisMonth.Location = new System.Drawing.Point(0, 65);
+            this.labelEarnedThisMonth.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.labelEarnedThisMonth.Name = "labelEarnedThisMonth";
+            this.labelEarnedThisMonth.Size = new System.Drawing.Size(522, 208);
+            this.labelEarnedThisMonth.TabIndex = 1;
+            this.labelEarnedThisMonth.Text = "$1204";
+            this.labelEarnedThisMonth.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
@@ -133,10 +133,10 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(44)))), ((int)(((byte)(70)))));
             this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Controls.Add(this.lblMonthlyExpenses);
+            this.panel2.Controls.Add(this.labelMonthlyExpenses);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(24, 369);
-            this.panel2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.panel2.Margin = new System.Windows.Forms.Padding(6);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(522, 310);
             this.panel2.TabIndex = 6;
@@ -145,24 +145,24 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(78, 71);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
-            // lblMonthlyExpenses
+            // labelMonthlyExpenses
             // 
-            this.lblMonthlyExpenses.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMonthlyExpenses.ForeColor = System.Drawing.Color.White;
-            this.lblMonthlyExpenses.Location = new System.Drawing.Point(0, 65);
-            this.lblMonthlyExpenses.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.lblMonthlyExpenses.Name = "lblMonthlyExpenses";
-            this.lblMonthlyExpenses.Size = new System.Drawing.Size(522, 208);
-            this.lblMonthlyExpenses.TabIndex = 1;
-            this.lblMonthlyExpenses.Text = "$364";
-            this.lblMonthlyExpenses.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelMonthlyExpenses.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMonthlyExpenses.ForeColor = System.Drawing.Color.White;
+            this.labelMonthlyExpenses.Location = new System.Drawing.Point(0, 65);
+            this.labelMonthlyExpenses.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.labelMonthlyExpenses.Name = "labelMonthlyExpenses";
+            this.labelMonthlyExpenses.Size = new System.Drawing.Size(522, 208);
+            this.labelMonthlyExpenses.TabIndex = 1;
+            this.labelMonthlyExpenses.Text = "$364";
+            this.labelMonthlyExpenses.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
             // 
@@ -186,7 +186,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "formDashboard";
             this.Text = "formDashboard";
             this.Load += new System.EventHandler(this.formDashboard_Load);
@@ -205,15 +205,15 @@
         #endregion
 
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label labelAccountBalance;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label labelEarnedThisMonth;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label lblMonthlyExpenses;
+        private System.Windows.Forms.Label labelMonthlyExpenses;
         private System.Windows.Forms.Label label1;
     }
 }

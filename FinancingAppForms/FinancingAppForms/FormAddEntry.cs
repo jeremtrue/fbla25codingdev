@@ -102,7 +102,7 @@ namespace FinancingAppForms
             try
             {
                 // Retrieve the MongoDB connection string from the environment variable
-                var connectionString = Environment.GetEnvironmentVariable("MONGODB_URI");
+                var connectionString = "mongodb+srv://jeremtruelove:Jeremy.2008@cluster0.sgvtj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
                 if (string.IsNullOrEmpty(connectionString))
                 {
                     MessageBox.Show("MongoDB connection string is not set in the environment variables.",
@@ -149,6 +149,11 @@ namespace FinancingAppForms
             {
                 MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void FormAddEntry_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using MongoDB.Bson;
+﻿using MongoDB.Bson;
 using MongoDB.Driver;
+using System;
+using System.Windows.Forms;
 
 namespace FinancingAppForms
 {
@@ -25,8 +18,15 @@ namespace FinancingAppForms
 
         private void formSpending_Load(object sender, EventArgs e)
         {
-
+            // Add code here if you need to handle something when the form loads
         }
+
+
+        private void panelDataGridView_Paint(object sender, PaintEventArgs e)
+        {
+            // Remove or comment out if you don't need custom painting for the panel
+        }
+
         private void SetupDataGridView()
         {
             // Initialize the DataGridView
@@ -36,22 +36,22 @@ namespace FinancingAppForms
                 AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill, // Adjust column width
                 AllowUserToAddRows = false, // Disable manual row addition
                 RowHeadersVisible = false,
-                BackgroundColor = Color.FromArgb(24, 30, 54), // Dark background color
-                ForeColor = Color.White, // Text color
-                Font = new Font("Apercu Pro", 12, FontStyle.Regular) // Change font
+                BackgroundColor = System.Drawing.Color.FromArgb(24, 30, 54), // Dark background color
+                ForeColor = System.Drawing.Color.White, // Text color
+                Font = new System.Drawing.Font("Apercu Pro", 12, System.Drawing.FontStyle.Regular) // Change font
             };
 
             // Change column headers style
-            dataGridView.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(46, 51, 73);
-            dataGridView.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
-            dataGridView.ColumnHeadersDefaultCellStyle.Font = new Font("Apercu Pro", 12, FontStyle.Bold);
+            dataGridView.ColumnHeadersDefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(46, 51, 73);
+            dataGridView.ColumnHeadersDefaultCellStyle.ForeColor = System.Drawing.Color.White;
+            dataGridView.ColumnHeadersDefaultCellStyle.Font = new System.Drawing.Font("Apercu Pro", 12, System.Drawing.FontStyle.Bold);
             dataGridView.EnableHeadersVisualStyles = false; // Disable default theme styling
 
             // Change row background color
-            dataGridView.RowsDefaultCellStyle.BackColor = Color.FromArgb(34, 40, 60);
-            dataGridView.RowsDefaultCellStyle.ForeColor = Color.White;
-            dataGridView.RowsDefaultCellStyle.SelectionBackColor = Color.FromArgb(75, 83, 135); // Selected row color
-            dataGridView.RowsDefaultCellStyle.SelectionForeColor = Color.White;
+            dataGridView.RowsDefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(34, 40, 60);
+            dataGridView.RowsDefaultCellStyle.ForeColor = System.Drawing.Color.White;
+            dataGridView.RowsDefaultCellStyle.SelectionBackColor = System.Drawing.Color.FromArgb(75, 83, 135); // Selected row color
+            dataGridView.RowsDefaultCellStyle.SelectionForeColor = System.Drawing.Color.White;
 
             // Add columns
             dataGridView.Columns.Add("Amount", "Amount ($)");
@@ -83,37 +83,39 @@ namespace FinancingAppForms
 
         private void LoadData()
         {
+            var connectionString = "mongodb+srv://jeremtruelove:Jeremy.2008@cluster0.sgvtj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+            var client = new MongoClient(connectionString); // Replace with your MongoDB connection string
+            var database = client.GetDatabase("FinancialApp"); // Replace with your database name
+            var collection = database.GetCollection<BsonDocument>("Transactions"); // Replace with your collection name
 
-            // ADD FEATURE LATER THAT LISTENS TO CHANGES IN DATAGRIDVIEWER AND APPLIES THOSE TO THE DATABASE
+            var filter = Builders<BsonDocument>.Filter.Empty; // Get all documents
+            var transactions = collection.Find(filter).ToList();
 
+            foreach (var transaction in transactions)
+            {
+                decimal amount = 0;
 
-            // Sample data to test
-            dataGridView.Rows.Add(100.00, "Groceries", true, DateTime.Now);
-            dataGridView.Rows.Add(250.50, "Salary", false, DateTime.Now.AddDays(-1));
-            dataGridView.Rows.Add(50.75, "Transportation", true, DateTime.Now.AddDays(-3));
-            dataGridView.Rows.Add(300.00, "Freelance", false, DateTime.Now.AddDays(-7));
-            dataGridView.Rows.Add(100.00, "Groceries", true, DateTime.Now);
-            dataGridView.Rows.Add(250.50, "Salary", false, DateTime.Now.AddDays(-1));
-            dataGridView.Rows.Add(50.75, "Transportation", true, DateTime.Now.AddDays(-3));
-            dataGridView.Rows.Add(300.00, "Freelance", false, DateTime.Now.AddDays(-7));
-            dataGridView.Rows.Add(100.00, "Groceries", true, DateTime.Now);
-            dataGridView.Rows.Add(250.50, "Salary", false, DateTime.Now.AddDays(-1));
-            dataGridView.Rows.Add(50.75, "Transportation", true, DateTime.Now.AddDays(-3));
-            dataGridView.Rows.Add(300.00, "Freelance", false, DateTime.Now.AddDays(-7));
-            dataGridView.Rows.Add(100.00, "Groceries", true, DateTime.Now);
-            dataGridView.Rows.Add(250.50, "Salary", false, DateTime.Now.AddDays(-1));
-            dataGridView.Rows.Add(50.75, "Transportation", true, DateTime.Now.AddDays(-3));
-            dataGridView.Rows.Add(300.00, "Freelance", false, DateTime.Now.AddDays(-7));
-            dataGridView.Rows.Add(100.00, "Groceries", true, DateTime.Now);
-            dataGridView.Rows.Add(250.50, "Salary", false, DateTime.Now.AddDays(-1));
-            dataGridView.Rows.Add(50.75, "Transportation", true, DateTime.Now.AddDays(-3));
-            dataGridView.Rows.Add(300.00, "Freelance", false, DateTime.Now.AddDays(-7));
+                // Check if the 'Amount' field is Decimal128 and convert accordingly
+                var amountValue = transaction.GetValue("Amount");
+                if (amountValue.IsDecimal128)
+                {
+                    Decimal128 decimalAmount = amountValue.ToDecimal128(); // Get the Decimal128 value
+                    amount = (decimal)decimalAmount; // Convert to decimal directly
+                }
+                else
+                {
+                    amount = 0; // Handle if the value is not Decimal128 (fallback)
+                }
+
+                string category = transaction.GetValue("Category").AsString;
+                string transactionType = transaction.GetValue("TransactionType").AsString;
+                DateTime date = transaction.GetValue("Date").ToUniversalTime();
+
+                // Add the data to the DataGridView
+                dataGridView.Rows.Add(amount, category, transactionType == "Expense", date);
+            }
         }
 
-        private void panelDataGridView_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
         private void addbutt_Click(object sender, EventArgs e)
         {
             // Open the FormAddEntry as a dialog
